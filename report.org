@@ -1,0 +1,28 @@
+#+TITLE YELP DATASCIENCE PROJECT
+
+
+* Business understanding
+** Background
+** Business objectives and success criteria
+** Inventory of resources
+** Requirements, assumptions and constraints
+** Risks and contingencies
+** Terminology
+** Costs and benefits
+** Data mining goals and success criteria
+** Project plan
+** Initial assessent of tools and techniques
+
+* Data understanding
+** Initial data collection report 
+*** Background of data
+*** List of data sources with broad area of required data covered by each 
+*** For each data source, method of acquisition or extraction
+*** Problems encountered in data acquisition or extraction
+** Data description report
+*** Each data source described in detail
+*** List of tables (may be only one or other database objects)
+*** Description of each field including units, codes used, etc.
+** Data exploration report
+
+** Data quality report 
