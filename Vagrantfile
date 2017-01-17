@@ -18,7 +18,11 @@ Vagrant.configure(2) do |config|
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8888" will access port 8888 on the guest machine.
   config.vm.network "forwarded_port", guest: 8888, host: 8889
-
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 4096
+    v.cpus = 2
+  end
+  
 
   # Run Iptyhon within the image
   # web-based interface at http://localhost:8888/
